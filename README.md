@@ -1,4 +1,4 @@
-# Top 10 Songs Finder (iTunes API + HOF)
+# Top 12 Songs Finder (iTunes API + HOF)
 
 ## Project Overview
 
@@ -81,7 +81,7 @@ songs.filter(song => song.trackPrice > 0);
 
 #### 3. `slice()`
 
-Ensures only top 10 songs are displayed.
+Ensures only top 12 songs are displayed.
 
 ```javascript
 songs.slice(0, 10);

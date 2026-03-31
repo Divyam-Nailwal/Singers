@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .search-box {
@@ -33,4 +34,26 @@
 .search-box img {
   width: 16px;
   opacity: 0.6;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr; 
+  gap: 10px;
+}
+
+.box {
+  text-align: center;
+  height: 92vh;
+  width: 100%;
+}
+
+#songs {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr ; 
+  gap: 5px;
+}
+
+.song {
+  background-color: green;
 }
