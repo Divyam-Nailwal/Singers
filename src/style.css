@@ -5,9 +5,32 @@
 }
 
 #nav {
-  height: 100vh;
+  height:8vh;
   width: 100%;
   background-color: black;
   display: flex;
-  
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background: #1F1F1F;
+  border: 1px solid #fff;
+  padding: 6px 10px;
+  border-radius: 25px;
+  width: 250px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+}
+
+.search-box img {
+  width: 16px;
+  opacity: 0.6;
 }
