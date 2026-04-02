@@ -2,6 +2,8 @@
   padding: 0 0;
   margin: 0 0;
   box-sizing: border-box;
+  background-color: black;
+  color: antiquewhite;
 }
 
 #nav {
@@ -58,6 +60,7 @@
   background-color: green;
   height: 260px;
   width: 310px;
+  margin-bottom: 60px;
 }
 
 .song img{
